@@ -41,21 +41,6 @@ package object Comete {
     }
   }
 
-//  def minp(f: Double => Double, min: Double, max: Double, prec: Double): Double = {
-//    if (max - min < prec) (min + max) / 2
-//    else {
-//      val mid1 = min + (max - min) / 3
-//      val mid2 = max - (max - min) / 3
-//
-//      if (f(mid1) < f(mid2))
-//        minp(f, min, mid2, prec)
-//      else
-//        minp(f, mid1, max, prec)
-//    }
-//  }
-
-
-
   def rhoCMT_Gen(alpha: Double, beta: Double): PolMeasure = {
 
     def minRhoAux(distribution: Distribution): Double = {
@@ -91,8 +76,3 @@ package object Comete {
     aux
   }
 }
-//        val f = distribution._1
-//        val d = distribution._2
-//        val z = (for {a <- f
-//                      b <- d
-//                      } yield pow(a, alpha) * pow(abs(b - p), beta)).toList.sum
