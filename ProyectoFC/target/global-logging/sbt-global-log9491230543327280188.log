@@ -1,5 +1,0 @@
-[0m[[0m[0mdebug[0m] [0m[0m> Exec(console, Some(1bf3ab14-87dc-42f1-9343-c333817e92ce), Some(CommandSource(console0)))[0m
-[0m[[0m[0mdebug[0m] [0m[0mEvaluating tasks: Compile / console[0m
-[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
-[0m[[0m[0minfo[0m] [0m[0mcompiling 1 Scala source to C:\Users\Juan Jose\IdeaProjects\ProyectoFC\target\scala-2.13\classes ...[0m
-[0m[[0m[0minfo[0m] [0m[0mStarting scala interpreter...[0m
